@@ -11,7 +11,7 @@ AND gate on output of lm360 and +5 ground circuit whihc goes to input 3 on A
 IC 23721 #1?
 pin 16 +5
 pin 8 ground
-15 -> Transistor tied to 1k8 resistor to +10
+pin 15 -> Transistor tied to 1k8 resistor to +10
 pin 14-> .32 pf pcap -> 2K resistor- >+5
 pin 13 -> AND #2  input 1
 I
@@ -21,5 +21,19 @@ pin 11 into IC 23227 #2
 IC 23227 #2
 pin 7 -> Transistor #2 tied to 1k8 resistor to +10
 pin 6 -> 22pf cap -> 1.8k??? -> +5
-pin 5->
-
+pin 5-> INPUT 1 of AND GATE #3
+AND GATE #3
+pin 2 tied to +5 and 2 grounds with .1pf and 27/16 pf caps
+and pin 2 -> pin 3 of 15221
+pin 14 -> 22pf cap -> 8k2 -> +5
+pin 15 -> Transistor tied to 1k8 resistor to +10
+pin 13-> pin 9 of AND GATE #3
+AND GATE #3
+pin 10 -> +5 and pin 13 of IEC 25571 #3
+IEC 25571 #3
+pin 16->+5
+pin 7 ->3k3 resistor->+5
+pin 6-> 47pf -> 3k3->+5
+pin 5
+pin 8 ground
+pin 16
