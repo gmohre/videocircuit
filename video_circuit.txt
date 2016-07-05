@@ -1,0 +1,25 @@
+in -> 1 khz resistor -> pin 3 lm364
+-5 ground 5.6k +5 5.6k 27k ?? ->pin 2>
+
+into lm360 which has +5 -5 grounding
+lm360
+.1 caps on +5 (pin 8)/-5(pin 4)
+pin 5 ground
+pin 6 out-> input 1 of AND GATE #1 
+AND GATE #1 
+AND gate on output of lm360 and +5 ground circuit whihc goes to input 3 on A
+IC 23721 #1?
+pin 16 +5
+pin 8 ground
+15 -> Transistor tied to 1k8 resistor to +10
+pin 14-> .32 pf pcap -> 2K resistor- >+5
+pin 13 -> AND #2  input 1
+I
+AND INPUT#2
+AND input 2 +5 
+pin 11 into IC 23227 #2
+IC 23227 #2
+pin 7 -> Transistor #2 tied to 1k8 resistor to +10
+pin 6 -> 22pf cap -> 1.8k??? -> +5
+pin 5->
+
